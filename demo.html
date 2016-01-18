@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>jig demo</title>
+	</head>
+	<body>
+		<ol id="comments"></ol>
+
+		<script data-template="comment" type="text/template">
+	        <li><a href="/user/{{author.username}}">{{author.full_name}}</a>:
+	        {{{comment_html}}}</li>
+		</script>
+
+		<script src="jig.js"></script>
+		<script src="demo.js"></script>
+	</body>
+</html>
