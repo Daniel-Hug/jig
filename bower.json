@@ -1,0 +1,26 @@
+{
+  "name": "jig",
+  "main": "jig.js",
+  "homepage": "https://github.com/Daniel-Hug/jig",
+  "authors": [
+    "Daniel Hug <daniel@hugwebdesign.com>"
+  ],
+  "description": "lightweight logicless templating with HTML escaping",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "templating",
+    "templates",
+    "html",
+    "escaping"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
